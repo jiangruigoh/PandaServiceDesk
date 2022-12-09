@@ -1,0 +1,11 @@
+mysql:
+    host: b2b-mysql01.mysql.database.azure.com
+    user: compare_bataras
+    passwd: 3b714043292de9ec909dffac612418b4
+    db: compare_bataras
+    port: 3306
+    
+uvicorn:
+    host: 0.0.0.0
+    port: 60001
+    reload : True
